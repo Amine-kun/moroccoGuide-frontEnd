@@ -1,0 +1,85 @@
+.settings-area{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+	padding:0  10vw  0 10vw ;
+	padding: 20px 0 20px 0;
+}
+.photo-div{
+	align-self: center;
+}
+.save-btn{
+	border-radius: 10px;
+	width: 150px;
+	text-align: center;
+}
+.cancel-btn{
+	text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.change-pic{
+	position: absolute;
+	width: 40px;
+	padding: 7px 0 6px;
+	border-radius: 50px;
+	background-color: #231f20;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+.dis{
+position: absolute;
+margin-top: 22px;
+width: 40px;
+border-radius: 50px;
+z-index: 5;
+opacity:0 ;
+
+}
+.change-cover{
+	position: absolute;
+	margin-left: 2vw;
+	width: auto;
+	padding: 10px 20px 10px 20px ;
+	border-radius: 50px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	opacity: 70%;
+}
+.dis2{
+	position: absolute;
+	margin-left: 2vw;
+margin-top: 22px;
+width: 130px;
+border-radius: 50px;
+z-index: 5;
+opacity: 0;
+}
+.flex-inp{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+.btn-section{
+	align-self: center;
+	margin-top: 10px;
+}
+.inp2{
+	margin-right: 15px;
+}
+.inp3{
+	margin-right: 24px;
+}
+.inp4 {
+    width: 87px;
+}
+
+.camera{
+	max-width: 54%;
+}

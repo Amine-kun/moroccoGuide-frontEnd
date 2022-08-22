@@ -1,0 +1,52 @@
+.flex-column{
+	background-color: #0e0e0e;
+	display: flex;
+	justify-content: center;
+	line-height: 30px;
+}
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	padding: 20px 1px 0px 15px;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 100px;
+    justify-content: center;
+}
+.table {
+	list-style: none;
+
+	margin-left: -36px;
+}
+.bot-footer{
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+}
+.logo1{
+	margin-top: 10px;
+}
+.footer-text{
+	color: white;
+		margin-bottom: 0px;
+}
+.line{
+	cursor: default;
+	color: #0e0e0e;
+	border-bottom: 2px solid white;
+	align-self: center;
+}
+.belowfooter{
+	align-self: center;
+}
+.social{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin-bottom: 15px;
+	justify-content: center;
+}
+.cent{
+	text-align: center;
+	align-self: center;
+}

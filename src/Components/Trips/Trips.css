@@ -1,0 +1,36 @@
+.card{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10px;
+	flex-wrap: wrap;
+	        margin-top: 35px;
+        margin-bottom: 35px;
+}
+.fknimg2{
+height: 163px;
+    width: 255x;
+    object-fit: cover;
+}
+.react{
+	height: 25px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.ttl{
+	border-bottom: 1px solid grey ;
+	padding-bottom: 5px;
+
+}
+.cut{
+	border-bottom: 1px solid black;
+	height:20px;
+	width: 20px;
+		color: white;
+}
+.hidden{
+	display: none;
+}
+.shown{
+	display: ;
+}

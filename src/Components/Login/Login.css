@@ -1,0 +1,152 @@
+.rendering-div{
+	padding-bottom: 14px;
+}
+
+
+.login-img{
+
+}
+
+.img-div{
+  display: flex;
+/*  background-color: #29436a69;*/
+  margin-top: 11px;
+}
+
+.div-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.login-form{
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+	margin-top: 11px;
+	box-shadow: -95px 1px 220px black;
+}
+.sub-form{
+	display: flex;
+	flex-direction: column;
+		gap: 30px;
+}
+.back{
+	position: absolute;
+	top: 5%;
+	margin-bottom: 0;
+}
+
+.back {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+    padding: 6px 12px 10px 12px;
+    border-radius: 30px;
+    transition: 350ms;
+    transform: rotate(
+45deg
+);
+}
+.hovering:hover{
+	box-shadow: 2px 2px 20px black;
+	transition: 300ms;
+}
+
+.signin-div{
+	border-bottom: black solid 2px;
+	align-self: flex-start;
+}
+.signin{
+	font-weight: bold;
+	font-size: 28px;
+
+}
+.input-text{
+	margin: 0;
+	font-weight: bold;
+}
+.email-pass{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.login-input{
+	height: 40px;
+	width: 300px;
+	border-radius: 10px;
+	padding: 0 20px 0 10px;
+	border: none;
+	background-color: #f3f3f4;
+}
+.login-input-exe{
+	height: 40px;
+	width: 140px;
+	border-radius: 10px;
+	padding: 0 20px 0 10px;
+	border: none;
+	background-color: #f3f3f4;
+}
+.firstandsecond{
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+.submit{
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	align-items: center;
+
+}
+.backtosign{
+	cursor: pointer;
+}
+.backtosign:hover{
+	color: #2b5469;
+}
+.register-btn{
+		width: 100px;
+	height: 40px;
+	border-radius: 10px;
+		border: black solid 2px;
+	background-color: white;
+	font-weight: bold;
+}
+.register-btn:hover{
+	background-color: black;
+	color: white;	
+}
+.btn{
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+		border: none;
+	background-color: black;
+	color: white;
+}
+
+@media (max-width: 1150px){
+	.img-div{
+		display: none;
+
+	}
+	.login-form{
+				height: 539px;
+	}
+	.rendering-div {
+    background-color: white;
+}
+.login-form{
+			padding: 0 0 0 0;
+			box-shadow: none;
+	}
+}
+@media (max-width: 700px){
+	
+
+}

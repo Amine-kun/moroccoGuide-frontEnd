@@ -1,0 +1,24 @@
+
+body{
+		background-image: url(https://images.pexels.com/photos/1036371/pexels-photo-1036371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+.Background::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height:236%;
+  backdrop-filter: blur(24px); /* apply the blur */
+  pointer-events: none; /* make the overlay click-through */
+  	background: linear-gradient(to top, transparent 0%, #000000c7 100%);
+}
+
+.Background{
+	margin-top: -7px;	
+	background-size: cover;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+
+}

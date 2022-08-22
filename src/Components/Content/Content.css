@@ -1,0 +1,175 @@
+.content-flex {
+}
+
+.intro{
+	margin: 0 45px 50px 45px;
+}
+.title-name{
+	font-size: 8vw;
+	margin-bottom: auto;
+	color: #fff;
+}
+.landing-text{
+	margin-right: 300px;
+	color: #fff;
+}
+.slider-parent{
+	height: auto;
+	margin-bottom: 10vw;
+}
+.picture{
+	background: url(https://media.gettyimages.com/photos/menara-pavilion-and-gardens-marrakesh-picture-id577088095?s=612x612);
+	height: 270px;
+    width: 400px;
+    border-radius: 14px;
+}
+
+.adiv-container{
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 0 90px 50px 90px;
+/*	border-radius: 36px 36px 0 0 ;*/
+}
+.head-title{
+	font-size: 4vw;
+	text-transform: uppercase;
+}
+.the-child-container{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.the-child-container-reversed{
+	display: flex;
+	flex-direction: row;
+}
+.the-grandchild-container{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding-right: 60px;
+	align-self: center;
+}
+.the-grandchild-container-reversed{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding-left: 60px;
+	align-self: center;
+}
+.title{
+	margin-top: -10px ;
+	font-size: 20px;
+	text-transform: uppercase;
+
+}
+.explaining{
+	   margin: 0px;
+    text-transform: none;
+    font-size: 20px;
+}
+/*.tag{
+	align-self: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+.call{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+}
+.call1{
+	display: flex;
+	flex-wrap: wrap;
+		justify-content: center;
+	gap: 10px;
+}
+
+.number{
+	height: 60px;
+	width: 118px;
+	background-color: #304158;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.number:hover {
+	box-shadow: 0px 0px  20px #000000c7;
+}
+.number:hover .N{
+	display: none;
+}
+.number:hover:before{
+  content: "SOS numbers"
+}
+.informations {
+
+}
+.text1{
+	margin: 0 45px 0px 45px;
+}
+*/
+
+/*media-query*/
+
+@media (max-width: 800px){
+	.adiv-container{
+		padding: 0 45px 0 45px;
+	}
+	.landing-text{
+		margin-right: auto;
+	}
+	.the-child-container{
+			flex-direction: column-reverse;
+		}
+		.the-child-container-reversed{
+			flex-direction: column-reverse;
+		}
+		.the-grandchild-container{
+	padding-right: 0px;
+	align-self: center;
+}
+.the-grandchild-container-reversed{
+	padding-left: 0px;
+	align-self: center;
+}
+.title{
+	margin-top: 20px ;
+	font-size: 20px;
+		align-self: center;
+}
+.explaining{
+	   margin: 0px;
+    text-transform: none;
+    font-size: 20px;
+}
+.adiv-container{
+	gap: 50px;
+		padding-bottom: 100px;
+}
+.bot{
+	padding-bottom: 50px;
+		border-bottom: black solid 2px;
+}
+.head-title{
+	padding-top: 30px;
+}
+		.imgtrip{
+			    align-self: center;
+		}
+}
+
+@media (max-width: 1050px){
+		.imgtrip{
+			width: 328px;
+    height: 259px;
+		}
+}
+
